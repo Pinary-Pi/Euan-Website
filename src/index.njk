@@ -1,0 +1,21 @@
+---
+layout: layout.njk
+title: Home - Euan Dandurand
+---
+
+<div class="hero">
+  <div class="logo">
+    <h1>Euan Dandurand</h1>
+    <div class="divider"></div>
+    {% set showDivider=false %}
+    {% include "nav.njk" %}
+  </div>
+</div>
+
+<div id="about" class="container">
+    <img src="/images/_AST7416.jpg" id="pfp">
+    <div class="description">
+      {% renderFile "./src/_includes/about.md" %}
+    </div>
+</div>
+{% include "footer.njk" %}

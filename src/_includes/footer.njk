@@ -1,0 +1,23 @@
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-left">
+      <h3 class="footer-logo">EUAN DANDURAND</h3>
+      <p class="copyright">&copy; 2025 Euan Dandurand. All rights reserved.</p>
+    </div>
+
+    <nav class="footer-links">
+      {% for item in nav %}
+        {% if item.url != page.url %}
+          <a href="{{ item.url }}">{{ item.title }}</a>
+        {% endif %}
+      {% endfor %}
+    </nav>
+
+    <div class="footer-social">
+      <a href="https://www.instagram.com/euandandurand/" target="_blank" rel="noopener noreferrer"><img src="/images/iconmonstr-instagram-13-light.svg" alt="Instagram"></a>
+      <a href="/coming-soon"><img src="/images/iconmonstr-youtube-6-light.svg" alt="YouTube"></a>
+      <a href="/coming-soon"><img src="/images/iconmonstr-spotify-1-light.svg" alt="Spotify"></a>
+      <a href="https://github.com/Pinary-Pi" target="_blank" rel="noopener noreferrer"><img src="/images/GitHub-Icon.svg" alt="GitHub"></a>
+    </div>
+  </div>
+</footer>

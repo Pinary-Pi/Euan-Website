@@ -1,0 +1,349 @@
+:root {
+  --dark-green: #000e0c;
+  --translucent: rgba(0,0,0,0.5);
+  --transition: 0.5s ease;
+  --border: 2px solid white;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--dark-green);
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Bodoni Moda', serif;
+  height: 100lvh;
+  color: white;
+  scroll-behavior: smooth !important;
+}
+
+body {
+  background: url("/images/pexels-frank-cone-140140-23524150.jpg") center center / cover no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 800;
+  font-size: max(44px, 6vw);
+  text-transform: uppercase;
+  user-select: none; /* not selectable */
+  margin: 0;
+  padding: 0 14px;
+}
+
+h2 {
+  font-weight: 500;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: max(1.5rem, 2vw);
+}
+
+p {
+  font-size: max(16px, 1.2vw);
+}
+
+a {
+  color: white;
+  font-style: italic;
+}
+
+.hero {
+  background: url("/images/pexels-frank-cone-140140-23524150.jpg") center center / cover no-repeat;
+  background-attachment: fixed;
+  height: 100lvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.divider {
+  width: max(100px, 10vw);
+  height: 2.5px;
+  background: white;
+  margin: 1rem auto;
+  border-radius: 1px;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.nav-social {
+  margin-top: 0; /* optional if you want them tight together */
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  transition: background var(--transition);
+  font-weight: 400;
+  font-size: max(16px, 2vw);
+  font-style: normal;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  transition: border-color var(--transition);
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+
+.nav a:hover {
+  background: var(--translucent);
+  cursor: pointer;
+  border: var(--border);
+}
+
+.nav img {
+  width: max(3.5vw, 42px);
+  height: max(3.5vw, 42px);
+  vertical-align: middle;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.about {
+  min-height: 100lvh;
+  background: url("/images/pexels-frank-cone-140140-23524150.jpg") center center / cover no-repeat;
+  background-attachment: fixed;
+  padding: 4rem 2rem;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+#pfp {
+  border-radius: 100%;
+  width: max(20vw, 200px);
+  border: var(--border);
+}
+
+/* Projects Page */
+.projects-hero {
+  background: url("/images/pexels-frank-cone-140140-23524150.jpg") center center / cover no-repeat;
+  background-attachment: fixed;
+  height: max(140px, 13vw); /* shorter than home hero */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.projects {
+  background: url("/images/pexels-frank-cone-140140-23524150.jpg") center center / cover no-repeat;
+  background-attachment: fixed;
+  min-height: calc(100vh - 220px);
+  display: flex;
+  flex-direction: column;     /* stack items vertically */
+  align-items: center;        /* center horizontally */
+  justify-content: flex-start; /* align to top */
+  padding: 2rem 1rem;
+  gap: 2rem; /* space between projects */
+}
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+  border: var(--border);
+  border-radius: 16px;
+  max-width: 52vw; /* control image size */
+  width: 100%;      /* scale down on smaller screens */
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform var(--transition), filter var(--transition);
+}
+
+.project-card:hover img {
+  transform: scale(1.05);
+  filter: blur(2px);
+}
+
+.project-overlay {
+  position: absolute;
+  inset: 0;
+  background: var(--translucent);
+  color: white;
+  opacity: 0;
+  transition: opacity var(--transition);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+  border-radius: 16px;
+}
+
+.project-card:hover .project-overlay {
+  opacity: 1;
+}
+
+.project-overlay h3 {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: max(1.5rem, 2vw);
+  font-style: normal;
+  margin: 0;
+}
+
+.project-overlay .divider {
+  width: max(7vw, 100px);
+  height: 2px;
+  background: white;
+  margin: 0.5rem 0;
+}
+
+.project-overlay p {
+  margin: 0;
+  font-size: max(1rem, 1.2vw);
+}
+
+.container {
+  background: url("/images/pexels-frank-cone-140140-23524150.jpg") center center / cover no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.description {
+  background: transparent;
+  background-attachment: fixed;
+  backdrop-filter: blur(10px) brightness(0.7);
+  border: var(--border);
+  padding: 20px 40px;
+  margin: 40px 7vw;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.description img {
+  width: 100%;
+  border-radius: 20px;
+  border: var(--border);
+}
+
+.description .divider {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  margin: 0;
+  border-radius: 1px
+}
+
+/* Footer */
+
+.footer {
+  background: var(--dark-green);
+  border-top: var(--border);
+  width: 100%;
+  padding: 1.5rem 2rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.footer-logo {
+  font-size: max(1rem, 1.2vw);
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 0 0.5rem 0;
+}
+
+.copyright {
+  font-size: max(0.8rem, 0.9vw);
+  font-style: italic;
+  margin: 0;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: max(0.9rem, 1vw);
+  font-style: normal;
+  transition: color var(--transition);
+}
+
+.footer-links a:hover {
+  color: grey;
+}
+
+.footer-social {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.footer-social img {
+  width: max(2.4vw, 32px);
+  height: max(2.4vw, 32px);
+  padding: 0.3rem;
+  border-radius: 4px;
+  transition: background var(--transition);
+}
+
+.footer-social img:hover {
+  background: var(--translucent);
+}
+
+@media (max-width: 1440px) {
+  .project-card {
+    max-width: 750px; /* control image size */
+  }
+}
+
+@media (max-width: 500px) {
+  .nav {
+    gap: 0.5rem; /* tighter spacing */
+  }
+
+  .nav a {
+    padding: 0.25rem 0.5rem; /* reduce padding around links */
+    font-size: max(14px, 3.5vw); /* scales with viewport */
+  }
+
+  .nav img {
+    width: max(28px, 6vw);
+    height: max(28px, 6vw);
+    padding: 0.25rem;
+  }
+
+  .description {
+    padding: 15px 20px;
+    margin: 20px 4vw; /* less side margin */
+  }
+}
