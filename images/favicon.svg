@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 12.7 12.7"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="favicon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="8"
+     inkscape:cx="27.25"
+     inkscape:cy="35.875"
+     inkscape:window-width="1440"
+     inkscape:window-height="878"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <pattern
+       id="EMFhbasepattern-1"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#ffffff;stroke-width:4.81304"
+       id="path12"
+       cx="6.3499999"
+       cy="6.3499999"
+       r="6.101953" />
+    <path
+       id="path1"
+       style="fill:#000000;stroke-width:0.252;stroke:#000000;stroke-opacity:1;stroke-dasharray:none"
+       d="M 6.3500001 0 A 6.3499999 6.3499999 0 0 0 0 6.3500001 A 6.3499999 6.3499999 0 0 0 6.3500001 12.7 A 6.3499999 6.3499999 0 0 0 12.7 6.3500001 A 6.3499999 6.3499999 0 0 0 6.3500001 0 z M 6.3500001 0.32039389 A 5.9256458 6.0296044 0 0 1 12.275737 6.3500001 A 5.9256458 6.0296044 0 0 1 6.3500001 12.379606 A 5.9256458 6.0296044 0 0 1 0.42426352 6.3500001 A 5.9256458 6.0296044 0 0 1 6.3500001 0.32039389 z " />
+    <path
+       d="M 6.2995131,3.8907008 6.0088588,5.256776 H 5.7618027 q 0,-0.5885749 -0.203458,-0.8501638 Q 5.3548866,4.1413901 4.7808444,4.1413901 H 3.7671875 L 3.3675379,6.0379095 h 0.1489603 q 0.4904791,0 0.7629675,-0.1525935 Q 4.5519541,5.7327224 4.6972813,5.2131779 H 4.9516038 L 4.5337882,7.2441248 H 4.2830989 q 0.021799,-0.1307944 0.021799,-0.2579557 0,-0.1961916 -0.090829,-0.3923833 Q 4.123239,6.3975942 3.9779119,6.3467297 3.8325847,6.292232 3.55283,6.292232 H 3.3130402 L 2.8516265,8.508471 h 0.6648717 q 0.4141824,0 0.7302689,-0.06903 0.3197198,-0.06903 0.6866708,-0.3705842 0.3705842,-0.305187 0.7012035,-0.9446265 H 5.8889639 L 5.4929474,8.7627935 H 1.0677357 L 1.1186002,8.508471 H 1.6926424 L 2.6082035,4.1413901 H 1.9396986 l 0.050864,-0.2506893 z"
+       id="text10"
+       style="font-style:italic;font-weight:bold;font-size:7.44075px;line-height:0;font-family:'Bodoni MT';-inkscape-font-specification:'Bodoni MT Bold Italic';stroke-width:0.263649"
+       aria-label="E" />
+    <path
+       style="font-style:normal;font-weight:bold;font-stretch:normal;font-size:8.21972px;line-height:0;font-family:'Bodoni MT';-inkscape-font-specification:'Bodoni MT Bold';stroke-width:0.27157"
+       d="M 7.4570174,8.5230032 V 4.1268549 H 6.8466431 V 3.8906982 h 2.4705628 q 1.0717881,0 1.6966951,0.6794047 0.624907,0.6794048 0.624907,1.7148612 0,0.5377107 -0.192559,1.0100241 Q 11.257324,7.7673017 10.861307,8.1560521 10.465291,8.5411692 10.047475,8.6537978 9.6332925,8.7627931 9.0265514,8.7627931 H 6.8466431 V 8.5230032 Z M 8.6487006,4.1268549 v 4.3961483 h 0.3851171 q 0.8828629,0 1.0645223,-0.5159116 0.185292,-0.5195448 0.185292,-1.772992 0,-0.9809588 -0.112629,-1.409674 Q 10.058375,4.3957102 9.8294843,4.2612826 9.6005939,4.1268549 9.2481754,4.1268549 Z"
+       id="path7" />
+  </g>
+</svg>
