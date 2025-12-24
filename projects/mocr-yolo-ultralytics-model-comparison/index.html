@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000e0c">
+  <title>Colored Bricks - Euan Dandurand</title>
+  <link rel="icon" href="/images/favicon.svg">
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,800;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+<div class="projects-hero">
+  
+  <div class="nav-container">
+    <nav class="nav nav-links">
+        
+            
+                <a href="/">Home</a>
+            
+        
+            
+                <a href="/#about">About</a>
+            
+        
+            
+                <a href="/coming-soon">Shop</a>
+            
+        
+            
+                <a href="/projects/">Projects</a>
+            
+        
+    </nav>
+    
+        <div class="divider"></div>
+        
+    <nav class="nav nav-social">
+        <a href="https://www.instagram.com/euandandurand/" target="_blank" rel="noopener noreferrer"><img src="/images/iconmonstr-instagram-13-light.svg" alt="Instagram"></a>
+        <a href="/coming-soon"><img src="/images/iconmonstr-youtube-6-light.svg" alt="YouTube"></a>
+        <a href="/coming-soon"><img src="/images/iconmonstr-spotify-1-light.svg" alt="Spotify"></a>
+        <a href="https://github.com/Pinary-Pi" target="_blank" rel="noopener noreferrer"><img src="/images/GitHub-Icon.svg" alt="GitHub"></a>
+    </nav>
+</div>
+
+</div>
+
+<div class="container">
+  <div class="description">
+    <h1>MOCR YOLO Ultra­lytics Model Comparison</h1>
+<div class="divider"></div>
+<h2>a set of Ultralytics YOLO models trained to recognize sheet music symbols</h2>
+<p>I began this project as the final assignment for an introductory Python programming course. Although I already had a strong background in Python prior to taking the class, I wanted to challenge myself by pursuing a project that went well beyond the course requirements. I decided to train a YOLO (You Only Look Once) object detection model to recognize musical symbols in sheet music, a task that combines computer vision, dataset design, and domain-specific structure. This type of project falls under the realm of MOCR or musical optical character recognition. In the future, I hope to build an application that can take an inputted .PDF file and export an .MXL to help composers and arrangers in their workflow.</p>
+<p>Throughout this project, I used the <a href="https://www.ultralytics.com/" target="_blank" rel="noopener noreferrer">Ultralytics</a> YOLO framework. At first, I collected images of sheet music and individual musical symbols from a variety of online sources, and then, I manually annotated them using <a href="https://github.com/HumanSignal/labelImg" target="_blank" rel="noopener noreferrer">LabelImg</a>. In total, I trained the model to detect ten distinct musical symbols: whole notes, half notes, quarter notes, eighth notes, sixteenth notes, treble clefs, alto (C) clefs, bass clefs, sharps, and flats. Because musical notation contains many visually similar symbols, careful labeling and dataset construction were essential to the project’s outcome.</p>
+<p>To improve the model’s ability to distinguish between closely related symbols, I also included images of thirty-second notes and blank staves with zero labels. This helped teach the model not only what is a target symbol, but also what is not, reducing false positives and improving robustness. After training, I integrated the model with a live webcam feed using the <a href="https://opencv.org/" target="_blank" rel="noopener noreferrer">OpenCV</a> library, allowing for real-time detection and visualization of musical symbols.</p>
+<p>This project allowed me to apply Python in a practical, end-to-end machine learning workflow, from data collection and annotation to model training, evaluation, and deployment. The full dataset, training configuration, and source code are available in the linked <a href="https://github.com/Pinary-Pi/mocr-yolo-ultralytics-model-comparison" target="_blank" ref="noopener noreferrer">GitHub repository</a>.</p>
+<p><img src="/images/mocr-yolo-test5.jpg" alt="an image of a labeled page of sheet music that the model ran on"></p>
+
+  </div>
+</div>
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-left">
+      <h3 class="footer-logo">EUAN DANDURAND</h3>
+      <p class="copyright">&copy; 2025 Euan Dandurand. All rights reserved.</p>
+    </div>
+
+    <nav class="footer-links">
+      
+        
+          <a href="/">Home</a>
+        
+      
+        
+          <a href="/#about">About</a>
+        
+      
+        
+          <a href="/coming-soon">Shop</a>
+        
+      
+        
+          <a href="/projects/">Projects</a>
+        
+      
+    </nav>
+
+    <div class="footer-social">
+      <a href="https://www.instagram.com/euandandurand/" target="_blank" rel="noopener noreferrer"><img src="/images/iconmonstr-instagram-13-light.svg" alt="Instagram"></a>
+      <a href="/coming-soon"><img src="/images/iconmonstr-youtube-6-light.svg" alt="YouTube"></a>
+      <a href="/coming-soon"><img src="/images/iconmonstr-spotify-1-light.svg" alt="Spotify"></a>
+      <a href="https://github.com/Pinary-Pi" target="_blank" rel="noopener noreferrer"><img src="/images/GitHub-Icon.svg" alt="GitHub"></a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

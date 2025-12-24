@@ -32,11 +32,15 @@ body {
 h1 {
   font-family: 'Bodoni Moda', serif;
   font-weight: 800;
-  font-size: max(44px, 6vw);
+  font-size: max(36px, 6vw);
   text-transform: uppercase;
   user-select: none; /* not selectable */
   margin: 0;
   padding: 0 14px;
+
+  hyphens: auto;
+  overflow-wrap: normal;
+  word-break: normal;
 }
 
 h2 {
