@@ -1,0 +1,16 @@
+---
+layout: layout.njk
+title: Colored Bricks - Euan Dandurand
+---
+
+<div class="projects-hero">
+  {% set showDivider="true" %}
+  {% include "nav.njk" %}
+</div>
+
+<div class="container">
+  <div class="description">
+    {% renderFile "./src/_includes/mocr-yolo-ultralytics-model-comparison.md" %}
+  </div>
+</div>
+{% include "footer.njk" %}
