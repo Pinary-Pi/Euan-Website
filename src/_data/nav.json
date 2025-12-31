@@ -1,6 +1,6 @@
 [
     { "title": "Home", "url": "/" },
     { "title": "About", "url": "/#about"},
-    { "title": "Shop", "url": "/coming-soon"},
+    { "title": "Shop", "url": "https://shop.euandandurand.com"},
     { "title": "Projects", "url": "/projects/"}
 ]
