@@ -1,5 +1,7 @@
 :root {
   --dark-green: #000e0c;
+  --orange: #fe9600;
+  --dark-orange: #C23001;
   --translucent: rgba(0,0,0,0.5);
   --transition: 0.5s ease;
   --border: 2px solid white;
